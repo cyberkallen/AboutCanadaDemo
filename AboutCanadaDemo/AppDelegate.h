@@ -10,7 +10,9 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@property (retain, nonatomic) UIWindow *window;
+
+-(void)loadData; // method to load and reload JSON data
 
 
 @end
